@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.hero-wrap,header{
+    background-color: #F0FFF0; /*Hero & Header Color*/
+}
+.site-button{
+        background-color: #21B573;
+        border: none;
+        color: #fff;
+        padding: 5px 20px;
+        text-align: center;
+        text-decoration: none;  /*Site Button Css*/
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 21px; 
+}
+section{
+    margin-bottom: 100px;   /*Gap After Section*/
+}
+h3{
+    margin-bottom: 50px;
+    font-size: 40px!important;      /*Every Section Top Header*/
+    font-weight: bold;
+   }
+   /*Hero Css*/
+   .hero-wrap #gap{
+margin-top: 20px;
+   }
+/*Category Area Css*/
+
+.sec-2 .card{
+ 
+    background-color: #F8FFFB; 
+    border: none;
+}
+.sec-2 img{
+    height: auto;
+    width: 20%;
+    margin-bottom: 20px;
+}
+.card-active{
+    background-color: #fff!important;
+    box-shadow: 10px 10px 15px lightgray;
+}
+.sec-2 .card-title{
+    margin-bottom: 5px;
+}
+
+/*Courses Area Css*/
+.sec-3 .card{
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px lightgray;
+}
+.sec-3 .card-footer{
+    border: none;
+    background-color: #fff;
+    padding: 5px 0px;
+}
+.card-footer img{
+    height: 20px;
+    margin-right: 0px;
+}
+.card-footer p{
+    margin-left: 5px;
+}
+/*Top Products Area Css*/
+.sec-5{
+    padding: 20px;
+    color: #fff;
+}
+/*Subscribe Area Css*/
+.sec-6 button{
+    border: none;
+    padding: 10px 20px;
+    background-color: #21B573;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+/*Footer Area Css*/
+footer{
+  padding-top: 50px;
+  background-color: #282531;
+  
+}
+footer ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+footer .row{
+    padding-bottom: 50px;
+}
